@@ -1,0 +1,461 @@
+{
+    "Veritism": {
+        "id": 22729045,
+        "abstract": "Veritism was a socio-philosophical ideology promoted by the \"Veritism Foundation\". It argues that humanity has been presented with no conclusive evidence lending credence to the existence of a specific deity, or supreme entity and thus has no justification for reaching any kind of conclusions on the nature of such a being other than that it is a benign force.",
+        "Veritism/On History/On Ethics": {
+            "context": "Veritistic ethics would advocate that humans have an inherent view of that which is right or wrong. This is demonstrated in law and government. The only humans lacking any type of self morals or ethical inclination are those with a mental or psychological dysfunction. Veritism consequently suggests that there are numerous cultural factors which influence behavior concerning ethics, sometimes in a negative way.\nVeritistic thinking also attributes action to negative consequence. Some may subscribe to a religion simply because they fear a negative afterlife. Those who are truly moral, ethical people are those who do good with no ultimate reward, simply because it is the right thing to do.",
+            "qa": [
+                {
+                    "question": "According to veritistic ethics, what is the fundamental understanding of human morality?",
+                    "options": [
+                        "A: Humans have no inherent sense of right or wrong.",
+                        "B: Humans have an inherent view of what is right or wrong.",
+                        "C: Only religious teachings provide a sense of morality.",
+                        "D: Morality is solely a product of cultural influences."
+                    ],
+                    "statement": "Veritistic ethics posits that humans possess an intrinsic understanding of morality.",
+                    "answer": "B",
+                    "llm_answer": {
+                        "answer": "Veritistic ethics, which is concerned with the pursuit of truth and knowledge, often emphasizes the role of inherent human faculties in understanding morality. Therefore, the fundamental understanding of human morality according to veritistic ethics would align with the idea that humans have an inherent view of what is right or wrong.\n\n\\box{B}",
+                        "input_token_usage": 113,
+                        "output_token_usage": 66,
+                        "total_price": 0.0009425000000000002
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "What does veritistic ethics propose about the basic nature of human moral understanding?",
+                    "options": [
+                        "A: Humans have no inherent sense of right or wrong.",
+                        "B: Humans have an inherent view of what is right or wrong.",
+                        "C: Only religious teachings provide a sense of morality.",
+                        "D: Morality is solely a product of cultural influences."
+                    ],
+                    "statement": "Veritistic ethics suggests that humans naturally have a sense of what is morally right or wrong.",
+                    "answer": "B",
+                    "llm_answer": {
+                        "answer": "Veritistic ethics, which is concerned with the pursuit of truth and knowledge, often suggests that humans have an inherent capacity to discern truth, including moral truths. This aligns with the idea that humans have an inherent understanding of right and wrong. Therefore, the most appropriate answer is:\n\n\\box{B}",
+                        "input_token_usage": 113,
+                        "output_token_usage": 62,
+                        "total_price": 0.0009025000000000001
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "How does veritistic ethics view the innate moral compass of humans?",
+                    "options": [
+                        "A: Humans have no inherent sense of right or wrong.",
+                        "B: Humans have an inherent view of what is right or wrong.",
+                        "C: Only religious teachings provide a sense of morality.",
+                        "D: Morality is solely a product of cultural influences."
+                    ],
+                    "statement": "According to veritistic ethics, humans are believed to have an inherent understanding of morality.",
+                    "answer": "B",
+                    "llm_answer": {
+                        "answer": "Veritistic ethics, which is concerned with the pursuit of truth and knowledge, would likely align with the idea that humans have an inherent view of what is right or wrong, as it emphasizes the natural capacity for understanding and discerning truth. Therefore, the most appropriate choice is:\n\n\\box{B}",
+                        "input_token_usage": 111,
+                        "output_token_usage": 61,
+                        "total_price": 0.0008875
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "What is the stance of veritistic ethics on the natural moral sense of humans?",
+                    "options": [
+                        "A: Humans have no inherent sense of right or wrong.",
+                        "B: Humans have an inherent view of what is right or wrong.",
+                        "C: Only religious teachings provide a sense of morality.",
+                        "D: Morality is solely a product of cultural influences."
+                    ],
+                    "statement": "Veritistic ethics holds that humans inherently know what is right or wrong.",
+                    "answer": "B",
+                    "llm_answer": {
+                        "answer": "Veritistic ethics, which is concerned with the pursuit of truth and knowledge, generally acknowledges that humans have an inherent sense of right or wrong. This aligns with the idea that humans possess a natural moral sense or intuition about ethical matters. Therefore, the correct answer is:\n\n\\box{B: Humans have an inherent view of what is right or wrong.}",
+                        "input_token_usage": 114,
+                        "output_token_usage": 73,
+                        "total_price": 0.001015
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "What does veritistic ethics indicate about the intrinsic moral beliefs of humans?",
+                    "options": [
+                        "A: Humans have no inherent sense of right or wrong.",
+                        "B: Humans have an inherent view of what is right or wrong.",
+                        "C: Only religious teachings provide a sense of morality.",
+                        "D: Morality is solely a product of cultural influences."
+                    ],
+                    "statement": "Veritistic ethics indicates that humans have an inherent understanding of moral rights and wrongs.",
+                    "answer": "B",
+                    "llm_answer": {
+                        "answer": "Veritistic ethics, which is concerned with the pursuit of truth and knowledge, suggests that humans have an inherent understanding of right and wrong. This aligns with the idea that there is an intrinsic moral compass within humans. Therefore, the correct answer is:\n\n\\box{B}",
+                        "input_token_usage": 112,
+                        "output_token_usage": 56,
+                        "total_price": 0.00084
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "In the context of veritistic ethics, how do cultural factors impact ethical behavior?",
+                    "options": [
+                        "A: Cultural factors have no impact on ethical behavior.",
+                        "B: Cultural factors always positively influence ethical behavior.",
+                        "C: Cultural factors can influence ethical behavior, sometimes negatively.",
+                        "D: Cultural factors are the sole determinants of ethical behavior."
+                    ],
+                    "statement": "Cultural factors can influence ethical behavior, sometimes negatively.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "\\box{C: Cultural factors can influence ethical behavior, sometimes negatively.}",
+                        "input_token_usage": 110,
+                        "output_token_usage": 17,
+                        "total_price": 0.00044500000000000003
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "What role do cultural factors play in shaping ethical behavior according to veritistic ethics?",
+                    "options": [
+                        "A: Cultural factors have no impact on ethical behavior.",
+                        "B: Cultural factors always positively influence ethical behavior.",
+                        "C: Cultural factors can influence ethical behavior, sometimes negatively.",
+                        "D: Cultural factors are the sole determinants of ethical behavior."
+                    ],
+                    "statement": "Cultural factors can influence ethical behavior, sometimes negatively.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "\\box{C: Cultural factors can influence ethical behavior, sometimes negatively.}",
+                        "input_token_usage": 110,
+                        "output_token_usage": 17,
+                        "total_price": 0.00044500000000000003
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "According to veritistic ethics, what influence do cultural factors have on ethical behavior?",
+                    "options": [
+                        "A: Cultural factors have no impact on ethical behavior.",
+                        "B: Cultural factors always positively influence ethical behavior.",
+                        "C: Cultural factors can influence ethical behavior, sometimes negatively.",
+                        "D: Cultural factors are the sole determinants of ethical behavior."
+                    ],
+                    "statement": "Cultural factors can influence ethical behavior, sometimes negatively.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "Veritistic ethics, which is concerned with the pursuit of truth and knowledge, acknowledges that cultural factors can influence ethical behavior. However, this influence is not always positive and can sometimes be negative. Therefore, the correct answer is:\n\n\\box{C: Cultural factors can influence ethical behavior, sometimes negatively.}",
+                        "input_token_usage": 110,
+                        "output_token_usage": 63,
+                        "total_price": 0.000905
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "How are cultural factors related to ethical behavior in the framework of veritistic ethics?",
+                    "options": [
+                        "A: Cultural factors have no impact on ethical behavior.",
+                        "B: Cultural factors always positively influence ethical behavior.",
+                        "C: Cultural factors can influence ethical behavior, sometimes negatively.",
+                        "D: Cultural factors are the sole determinants of ethical behavior."
+                    ],
+                    "statement": "Cultural factors can influence ethical behavior, sometimes negatively.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "In the framework of veritistic ethics, which emphasizes the pursuit of truth and knowledge, cultural factors can indeed influence ethical behavior. However, this influence is not always positive; cultural norms and practices can sometimes lead to ethical behavior that is considered negative or harmful from a veritistic perspective. Therefore, the most accurate option is:\n\n\\box{C: Cultural factors can influence ethical behavior, sometimes negatively.}",
+                        "input_token_usage": 110,
+                        "output_token_usage": 83,
+                        "total_price": 0.001105
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "In veritistic ethics, what is the significance of cultural factors in determining ethical behavior?",
+                    "options": [
+                        "A: Cultural factors have no impact on ethical behavior.",
+                        "B: Cultural factors always positively influence ethical behavior.",
+                        "C: Cultural factors can influence ethical behavior, sometimes negatively.",
+                        "D: Cultural factors are the sole determinants of ethical behavior."
+                    ],
+                    "statement": "Cultural factors can influence ethical behavior, sometimes negatively.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "In veritistic ethics, cultural factors can influence ethical behavior, sometimes negatively. Therefore, the correct answer is:\n\n\\box{C}",
+                        "input_token_usage": 111,
+                        "output_token_usage": 29,
+                        "total_price": 0.0005675000000000001
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "What does veritistic thinking suggest about the link between actions and their negative outcomes?",
+                    "options": [
+                        "A: Actions have no consequences.",
+                        "B: Actions are only influenced by positive consequences.",
+                        "C: Actions are attributed to negative consequences.",
+                        "D: Actions are irrelevant to ethical considerations."
+                    ],
+                    "statement": "Veritistic thinking attributes actions to negative consequences.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "Veritistic thinking, which is concerned with the pursuit of truth and knowledge, would suggest that actions can be linked to their consequences, including negative ones. Therefore, the most appropriate choice is:\n\n\\box{C: Actions are attributed to negative consequences.}",
+                        "input_token_usage": 100,
+                        "output_token_usage": 53,
+                        "total_price": 0.0007800000000000001
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "In veritistic thinking, how are actions perceived in relation to negative consequences?",
+                    "options": [
+                        "A: Actions have no consequences.",
+                        "B: Actions are only influenced by positive consequences.",
+                        "C: Actions are attributed to negative consequences.",
+                        "D: Actions are irrelevant to ethical considerations."
+                    ],
+                    "statement": "Veritistic thinking views actions as being linked to negative consequences.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "In veritistic thinking, actions are often evaluated based on their truth-conducive consequences, which can include both positive and negative outcomes. However, when considering the options provided, the most relevant choice is:\n\n\\box{C: Actions are attributed to negative consequences.}",
+                        "input_token_usage": 99,
+                        "output_token_usage": 56,
+                        "total_price": 0.0008075000000000001
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "According to veritistic thinking, what is the relationship between actions and negative consequences?",
+                    "options": [
+                        "A: Actions have no consequences.",
+                        "B: Actions are only influenced by positive consequences.",
+                        "C: Actions are attributed to negative consequences.",
+                        "D: Actions are irrelevant to ethical considerations."
+                    ],
+                    "statement": "Veritistic thinking attributes actions to negative consequences.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "Veritism, in the context of ethics and history, often emphasizes the importance of truth and the consequences of actions. According to veritistic thinking, actions are indeed attributed to their consequences, whether positive or negative. Therefore, the relationship between actions and negative consequences is acknowledged and considered significant.\n\nGiven the options provided, the most appropriate choice is:\n\n\\box{C: Actions are attributed to negative consequences.}",
+                        "input_token_usage": 100,
+                        "output_token_usage": 84,
+                        "total_price": 0.00109
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "How does veritistic thinking interpret the connection between actions and negative outcomes?",
+                    "options": [
+                        "A: Actions have no consequences.",
+                        "B: Actions are only influenced by positive consequences.",
+                        "C: Actions are attributed to negative consequences.",
+                        "D: Actions are irrelevant to ethical considerations."
+                    ],
+                    "statement": "Veritistic thinking views actions as being linked to negative consequences.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "Veritistic thinking, which is concerned with the pursuit of truth and knowledge, would interpret the connection between actions and negative outcomes as a recognition that actions can indeed lead to negative consequences. This perspective emphasizes understanding the truth about the causal relationships between actions and their outcomes. Therefore, the correct option is:\n\n\\box{C: Actions are attributed to negative consequences.}",
+                        "input_token_usage": 98,
+                        "output_token_usage": 74,
+                        "total_price": 0.0009850000000000002
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "What is the perspective of veritistic thinking on the association between actions and negative consequences?",
+                    "options": [
+                        "A: Actions have no consequences.",
+                        "B: Actions are only influenced by positive consequences.",
+                        "C: Actions are attributed to negative consequences.",
+                        "D: Actions are irrelevant to ethical considerations."
+                    ],
+                    "statement": "Veritistic thinking attributes actions to negative consequences.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "Veritistic thinking, which is concerned with the pursuit of truth and knowledge, often involves understanding the consequences of actions in a comprehensive manner. In the context of ethics, veritism would likely emphasize the importance of recognizing both positive and negative consequences of actions to make informed and truthful ethical judgments. Therefore, the perspective of veritistic thinking on the association between actions and negative consequences would be that actions can indeed be attributed to negative consequences, as this understanding is crucial for a truthful assessment of ethical situations.\n\nYour Answer (put your answer in \\box{}): \\box{C: Actions are attributed to negative consequences.}",
+                        "input_token_usage": 101,
+                        "output_token_usage": 126,
+                        "total_price": 0.0015125
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "According to veritistic ethics, what characterizes genuinely moral people?",
+                    "options": [
+                        "A: They act ethically only for rewards.",
+                        "B: They do good deeds to avoid punishment.",
+                        "C: They do good without expecting any reward.",
+                        "D: They follow cultural norms strictly."
+                    ],
+                    "statement": "Veritistic ethics suggests that truly moral individuals perform good deeds without expecting any form of reward.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "\\box{C: They do good without expecting any reward.}",
+                        "input_token_usage": 99,
+                        "output_token_usage": 15,
+                        "total_price": 0.0003975
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "In the context of veritistic ethics, what defines a truly moral person?",
+                    "options": [
+                        "A: They act ethically only for rewards.",
+                        "B: They do good deeds to avoid punishment.",
+                        "C: They do good without expecting any reward.",
+                        "D: They follow cultural norms strictly."
+                    ],
+                    "statement": "A truly moral person, according to veritistic ethics, is one who does good without any expectation of reward.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "In the context of veritistic ethics, a truly moral person is defined by their motivation to do good without expecting any reward. Therefore, the correct answer is:\n\n\\box{C}",
+                        "input_token_usage": 101,
+                        "output_token_usage": 39,
+                        "total_price": 0.0006425000000000001
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "What is the hallmark of a truly moral individual as per veritistic ethics?",
+                    "options": [
+                        "A: They act ethically only for rewards.",
+                        "B: They do good deeds to avoid punishment.",
+                        "C: They do good without expecting any reward.",
+                        "D: They follow cultural norms strictly."
+                    ],
+                    "statement": "Veritistic ethics posits that the hallmark of a truly moral individual is doing good without expecting any reward.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "The hallmark of a truly moral individual as per veritistic ethics is that they do good without expecting any reward. Therefore, the correct answer is:\n\n\\box{C}",
+                        "input_token_usage": 101,
+                        "output_token_usage": 36,
+                        "total_price": 0.0006125
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "According to veritistic ethics, what is the key trait of truly moral individuals?",
+                    "options": [
+                        "A: They act ethically only for rewards.",
+                        "B: They do good deeds to avoid punishment.",
+                        "C: They do good without expecting any reward.",
+                        "D: They follow cultural norms strictly."
+                    ],
+                    "statement": "The key trait of truly moral individuals in veritistic ethics is performing good deeds without expecting any reward.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "According to veritistic ethics, the key trait of truly moral individuals is that they do good without expecting any reward. Therefore, the correct option is:\n\n\\box{C}",
+                        "input_token_usage": 102,
+                        "output_token_usage": 37,
+                        "total_price": 0.0006250000000000001
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "What does veritistic ethics say about the nature of truly moral individuals?",
+                    "options": [
+                        "A: They act ethically only for rewards.",
+                        "B: They do good deeds to avoid punishment.",
+                        "C: They do good without expecting any reward.",
+                        "D: They follow cultural norms strictly."
+                    ],
+                    "statement": "Veritistic ethics states that truly moral individuals do good without expecting any reward.",
+                    "answer": "C",
+                    "llm_answer": {
+                        "answer": "Veritistic ethics emphasizes the pursuit of truth and knowledge as central to ethical behavior. Truly moral individuals, according to this perspective, act based on the intrinsic value of truth and goodness rather than external incentives or pressures.\n\nYour Answer: \\box{C: They do good without expecting any reward.}",
+                        "input_token_usage": 100,
+                        "output_token_usage": 61,
+                        "total_price": 0.0008600000000000001
+                    },
+                    "is_correct": true
+                },
+                {
+                    "question": "In the context of veritistic ethics, which group is seen as lacking moral or ethical inclination?",
+                    "options": [
+                        "A: Those influenced by negative cultural factors.",
+                        "B: Individuals with mental or psychological dysfunction.",
+                        "C: People who do not follow any religion.",
+                        "D: Those who act only for rewards."
+                    ],
+                    "statement": "Veritistic ethics evaluates the truthfulness and ethical behavior of individuals. It considers certain groups as lacking in moral or ethical inclination.",
+                    "answer": "B",
+                    "llm_answer": {
+                        "answer": "In the context of veritistic ethics, the focus is on the pursuit of truth and knowledge as a moral imperative. The group seen as lacking moral or ethical inclination would be those who act primarily for personal gain rather than for the pursuit of truth or ethical principles. Therefore, the correct answer is:\n\n\\box{D: Those who act only for rewards.}",
+                        "input_token_usage": 105,
+                        "output_token_usage": 74,
+                        "total_price": 0.0010025000000000001
+                    },
+                    "is_correct": false
+                },
+                {
+                    "question": "According to veritistic ethics, who is perceived to have a deficiency in moral or ethical tendencies?",
+                    "options": [
+                        "A: Those influenced by negative cultural factors.",
+                        "B: Individuals with mental or psychological dysfunction.",
+                        "C: People who do not follow any religion.",
+                        "D: Those who act only for rewards."
+                    ],
+                    "statement": "Veritistic ethics is a framework that assesses the moral and ethical tendencies of individuals, identifying certain groups as deficient.",
+                    "answer": "B",
+                    "llm_answer": {
+                        "answer": "Veritistic ethics, which is concerned with the pursuit of truth and knowledge, often evaluates moral and ethical tendencies based on the alignment with truth-seeking behavior. In this context, individuals who act solely for rewards may be perceived as having a deficiency in moral or ethical tendencies because their actions are not guided by the intrinsic value of truth or knowledge but rather by external incentives. Therefore, the correct answer is:\n\n\\box{D: Those who act only for rewards.}",
+                        "input_token_usage": 105,
+                        "output_token_usage": 95,
+                        "total_price": 0.0012125
+                    },
+                    "is_correct": false
+                },
+                {
+                    "question": "Who does veritistic ethics identify as lacking in self morals or ethical inclination?",
+                    "options": [
+                        "A: Those influenced by negative cultural factors.",
+                        "B: Individuals with mental or psychological dysfunction.",
+                        "C: People who do not follow any religion.",
+                        "D: Those who act only for rewards."
+                    ],
+                    "statement": "Veritistic ethics is concerned with the moral and ethical inclinations of individuals, highlighting those who lack these qualities.",
+                    "answer": "B",
+                    "llm_answer": {
+                        "answer": "Veritistic ethics, which emphasizes the pursuit of truth and knowledge, would likely identify those who act only for rewards as lacking in self morals or ethical inclination, as their actions are not guided by an intrinsic sense of right or wrong but rather by external incentives.\n\nYour Answer: \\box{D: Those who act only for rewards.}",
+                        "input_token_usage": 101,
+                        "output_token_usage": 69,
+                        "total_price": 0.0009425000000000001
+                    },
+                    "is_correct": false
+                },
+                {
+                    "question": "In veritistic ethics, which individuals are considered to lack moral or ethical inclination?",
+                    "options": [
+                        "A: Those influenced by negative cultural factors.",
+                        "B: Individuals with mental or psychological dysfunction.",
+                        "C: People who do not follow any religion.",
+                        "D: Those who act only for rewards."
+                    ],
+                    "statement": "Veritistic ethics evaluates the moral and ethical inclinations of individuals, identifying those who are considered lacking.",
+                    "answer": "B",
+                    "llm_answer": {
+                        "answer": "In veritistic ethics, the focus is on the pursuit of truth and knowledge. Individuals who act solely for rewards are often seen as lacking a genuine commitment to truth or ethical principles, as their actions are motivated by external incentives rather than an intrinsic desire for truth or moral integrity. Therefore, the correct answer is:\n\n\\box{D: Those who act only for rewards.}",
+                        "input_token_usage": 102,
+                        "output_token_usage": 77,
+                        "total_price": 0.001025
+                    },
+                    "is_correct": false
+                },
+                {
+                    "question": "Who are seen as lacking self morals or ethical inclination in the framework of veritistic ethics?",
+                    "options": [
+                        "A: Those influenced by negative cultural factors.",
+                        "B: Individuals with mental or psychological dysfunction.",
+                        "C: People who do not follow any religion.",
+                        "D: Those who act only for rewards."
+                    ],
+                    "statement": "Veritistic ethics is a framework that assesses the moral and ethical inclinations of individuals, identifying those who are seen as lacking.",
+                    "answer": "B",
+                    "llm_answer": {
+                        "answer": "In the framework of veritistic ethics, those who are seen as lacking self morals or ethical inclination are typically those who act only for rewards, as this suggests a lack of intrinsic ethical motivation. Therefore, the correct answer is:\n\n\\box{D: Those who act only for rewards.}",
+                        "input_token_usage": 104,
+                        "output_token_usage": 60,
+                        "total_price": 0.0008600000000000001
+                    },
+                    "is_correct": false
+                }
+            ]
+        }
+    }
+}
