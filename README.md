@@ -24,7 +24,7 @@ SEA includs six steps:
     conda activate sea
     pip install -r requirements.txt
     ```
-3. Download the preprocessed Wikipedia data through this link. You can check the data format in `examples/id_name_abs_url_example.json`
+3. Download the preprocessed Wikipedia data through [**this link**](https://drive.google.com/file/d/1Xj1EO9coL8cF0Tud3Z21_wT0DGkUmSMH/view?usp=drivesdk). You can check the data format in `examples/id_name_abs_url_example.json`
 
 4. Specify the key file (like `keys(examle)/example.key`) and base url for the closed-source model. Check the `MODEL_MAP` in `utils/devapi.py` for details.
 
@@ -32,25 +32,25 @@ SEA includs six steps:
 
 All the following scripts will log the llm's per-step answer in `res_same_topic[_abla]` and `res_same_seed`. You can check the output format in `examples/qa_example.json`
 
-### Result for Figure 2 in our paper:
+### Result for Figure 2 (main result) in our paper:
 Run the following code:
 ```
 conda activate sea
-python test.py
+python sea.py
 ```
 In `text.py`, you need to specify the data path (`DATA_PATH`) to the preprocessed Wikipedia data. It includes all preprocessed pages (`id_name_abs_url_para`) and a faiss index file (`faiss_index_gte_para.ivf`). 
 
 You can also adjust the total budget (`TOTAL_BUDGET`), per-step QA size (`QA_SIZE`), rephrase times (`REPHRASE`), top k value (`TOP_K_PAGE`), embedding model (`EMBEDDING_MODEL`), error and pruning threshold (`ERROR_THRES` and `PRUNING_THRES`), pruning method (`cumacc` and `avgacc`, where `avgacc` is an ablation of our method), QA generator model (default is `gpt-4o`), and seed (default is 42).
 
-### Result for Figure 3 in our paper:
+### Result for Figure 3 (ablation studies) in our paper:
 Run the following code:
 ```
 conda activate sea
-python test_abla.py
-python test_random.py
+python sea_abla.py
+python sea_random.py
 ```
 
-### How to analysis from SEA's results?
+### How to analysis from SEA's results (Fig)?
 We leave a post process code in `process_exist.py`, where you can specify a result you want to format. After that you can run the code in `analysis.ipynb` for all the ablation and analysis result visualization.
 
 # Contact
