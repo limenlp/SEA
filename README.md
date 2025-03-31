@@ -15,18 +15,14 @@ SEA includes six steps:
 # How to use?
 
 ## Preparation
-1. Create a new conda environment by
+1. Install Conda and create the conda environment (sea) by
     ```
-    conda create -n sea python=3.10
+    conda create -f environment.yml
     ```
-2. Install the required package by
-    ```
-    conda activate sea
-    pip install -r requirements.txt
-    ```
+    A Linux system is recommended.
 3. Download the preprocessed Wikipedia data through [**this link**](https://drive.google.com/file/d/1Xj1EO9coL8cF0Tud3Z21_wT0DGkUmSMH/view?usp=drivesdk). You can check the data format in `examples/id_name_abs_url_example.json`
 
-4. Specify the key file (like `keys(example)/example.key`) and base url for the closed-source model. Check the `MODEL_MAP` in `utils/devapi.py` for details.
+4. Specify the key file (create a `[See utils/devapi.py].key` file) for the closed-source model. You should check the `MODEL_MAP` in `utils/devapi.py` for details.
 
 ## Usage
 

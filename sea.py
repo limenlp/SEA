@@ -13,15 +13,15 @@ from utils.utils import ans_extractor, judge_ans
 
 
 TESTEE_MODEL = [
-    "meta-llama/Llama-3.3-70B-Instruct",
-    "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",  # llama 3.3 distilled
-    "deepseek-ai/DeepSeek-V3",
-    "Qwen/Qwen2.5-72B-Instruct",
-    "deepseek-ai/DeepSeek-R1"
-    "amazon/nova-pro",
-    "gpt-4o-mini",
+    # "meta-llama/Llama-3.3-70B-Instruct",
+    # "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",  # llama 3.3 distilled
+    # "deepseek-ai/DeepSeek-V3",
+    # "Qwen/Qwen2.5-72B-Instruct",
+    # "deepseek-ai/DeepSeek-R1"
+    # "amazon/nova-pro",
+    # "gpt-4o-mini",
     "gpt-4o",
-    "o1-mini",
+    # "o1-mini",
 ]
 DATA_PATH = "/linxindata/wiki/wikidata/processed_files/"
 EMBEDDING_MODEL = "Alibaba-NLP/gte-multilingual-base"
@@ -76,6 +76,9 @@ for model in TESTEE_MODEL:
     
     if not os.path.exists("res_same_topic"):
         os.mkdir("res_same_topic")
+    
+    if not os.path.exists("figs_same_topic"):
+        os.mkdir("figs_same_topic")
 
     ANS_SAVE_PATH = f"res_same_topic/{model_name}_search\
 _r{ROUND}\
@@ -97,7 +100,7 @@ _{QUERY_BASE}"
         model_path=model,
         base_url=MODEL_MAP[model][0],
         num_gpus=2,
-        request_per_minute=100,
+        request_per_minute=100,  # depends on your rate limit
         key_path=MODEL_MAP[model][1],
         region=region
     )
@@ -105,7 +108,7 @@ _{QUERY_BASE}"
         model_path=GEN_MODEL,
         base_url=MODEL_MAP[GEN_MODEL][0],
         key_path=MODEL_MAP[GEN_MODEL][1],
-        request_per_minute=100,
+        request_per_minute=100,  # depends on your rate limit
     )
     pr = PageRetriever(
         data_path=f"{DATA_PATH}/id_name_abs_url_para",  # glob format
@@ -135,7 +138,7 @@ _{QUERY_BASE}"
                 paragraph_size=PARA_SIZE_PER_PAGE,
                 q_graph=G,
             )
-        
+
         if not os.path.exists(ANS_SAVE_PATH):
             os.mkdir(ANS_SAVE_PATH)
         if not os.path.exists(FIG_SAVE_PATH):
@@ -145,7 +148,6 @@ _{QUERY_BASE}"
             page_list = pr.page_random_sampling(page_size=RANDOM_PAGE_SIZE)
         elif step == 0 and INIT_TOPICS:
             page_list = pr.init_sampling(page_size=RANDOM_PAGE_SIZE, init_topics=INIT_TOPICS)
-            
 
         qa_dict, cost1 = qa_gen.generate_qa(
             page_list=page_list,

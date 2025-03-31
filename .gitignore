@@ -12,6 +12,6 @@ res*/
 figs*/
 .DS_Store
 .DS_Store
-keys/
+*.key
 baseline_res/
 clean_graph/
