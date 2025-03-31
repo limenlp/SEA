@@ -61,3 +61,6 @@ We leave a post-process code in `process_exist.py`, where you can specify the re
 ```
 TBD
 ```
+
+### Github
+You can check our paper PDF through [this link](paper/SEA_paper.pdf).
