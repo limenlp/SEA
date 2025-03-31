@@ -32,8 +32,8 @@ SEA includes six steps:
 
 All the following scripts will log the LLM's per-step answer in `res_same_topic[_abla]` and `res_same_seed`. You can check the output format in `examples/qa_example.json`
 
-### Result for Figure 2 (main result) in our paper:
-Run the following code:
+### Run SEA
+You can run SEA with following commend:
 ```
 conda activate sea
 python sea.py
@@ -42,7 +42,7 @@ In `sea.py`, you need to specify the data path (`DATA_PATH`) to the preprocessed
 
 You can also adjust the total budget (`TOTAL_BUDGET`), per-step QA size (`QA_SIZE`), rephrase times (`REPHRASE`), top k value (`TOP_K_PAGE`), embedding model (`EMBEDDING_MODEL`), error and pruning threshold (`ERROR_THRES` and `PRUNING_THRES`), pruning method (`cumacc` and `avgacc`, where `avgacc` is an ablation of our method), QA generator model (default is `gpt-4o`), and seed (default is 42).
 
-### Result for Figure 3 (ablation studies) in our paper:
+### Result for ablation studies (Figure 3) in our paper:
 Run the following code:
 ```
 conda activate sea
