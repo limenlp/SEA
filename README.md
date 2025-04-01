@@ -28,7 +28,7 @@ SEA includes six steps:
 All the following scripts will log the LLM's per-step answer in `res_same_topic[_abla]` and `res_same_seed`. You can check the output format in `examples/qa_example.json`
 
 ### Run SEA
-You can run SEA with following commend:
+You can run SEA with the following command:
 ```
 conda activate sea
 python sea.py
@@ -37,7 +37,7 @@ In `sea.py`, you need to specify the data path (`DATA_PATH`) to the preprocessed
 
 You can also adjust the total budget (`TOTAL_BUDGET`), per-step QA size (`QA_SIZE`), rephrase times (`REPHRASE`), top k value (`TOP_K_PAGE`), embedding model (`EMBEDDING_MODEL`), error and pruning threshold (`ERROR_THRES` and `PRUNING_THRES`), pruning method (`cumacc` and `avgacc`, where `avgacc` is an ablation of our method), QA generator model (default is `gpt-4o`), and seed (default is 42).
 
-It's possible for you to specify the search topic for the initial set by modifying the `INIT_TOPICS`. Try your own topic!
+You can modify the `INIT_TOPICS` to specify the search topic for the initial set. Try your topic!
 
 ### Result for ablation studies (Figure 3) in our paper:
 Run the following code:
@@ -50,19 +50,19 @@ python sea_random.py
 ### How can we analyze SEA's results (Figures 5 and 6)?
 We leave a post-process code in `process_exist.py`, where you can specify the result you want to format. After that, you can run the code in `analysis.ipynb` for all the ablation and analysis result visualization.
 
-# How to Customize Your Knowledge Base?
-It is quite easy to customize your own dataset! The link in Preparation -- step 3 includes the data processing code, where you will use `emb_processing.py`, `indexing.py`, and `sep_file.py` for this processing (remember to modify the path).
+# How to customize your knowledge base?
+It is quite easy to customize your dataset! The link in Preparation—step 3 includes the data processing code. For this processing, you will use `emb_processing.py`, `indexing.py`, and `sep_file.py` (remember to modify the path).
 
 (Step 1) Process your document into the following content (see `examples/processed_document_example.json`). Specifically, you should have:
 - A name (general title, like the general title of a Wikipedia page)
 - An abstract
-- A wikitext (in markdown format). Note that you should split each section by a title start from \# or \#\# mark.
+- A wikitext (in markdown format). Note that you should split each section by a title starting from \# or \#\# mark.
 
-(Step 2) After that, summarize all your document into a json file (e.g., `document.json`) and run the `emb_processing.py`, then `indexing.py`. **An important note**: make sure the embedding model used to process the dataset is the same as used in SEA.
+(Step 2) After that, summarize all your documents into a json file (e.g., `document.json`) and run the `emb_processing.py` and `indexing.py`. **An important note**: Make sure the embedding model used to process the dataset is the same as that used in SEA.
 
-(Step 3) Separate your `document.json` into multiple sub-files by `sep_file.py`.
+(Step 3) Separate your `document.json` into multiple sub-files using `sep_file.py`.
 
-(Step 4) Specify the path to your separated files and index file to SEA and start the discovering jurney!
+(Step 4) Specify the path to your separated files and index file to SEA and start the discovery journey!
 
 
 # Contact
