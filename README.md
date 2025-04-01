@@ -72,7 +72,15 @@ It is quite easy to customize your dataset! The link in Preparation—step 3 inc
 # Citation
 ### BibTeX:
 ```
-TBD
+@misc{song2025discoveringknowledgedeficiencieslanguage,
+      title={Discovering Knowledge Deficiencies of Language Models on Massive Knowledge Base}, 
+      author={Linxin Song and Xuwei Ding and Jieyu Zhang and Taiwei Shi and Ryotaro Shimizu and Rahul Gupta and Yang Liu and Jian Kang and Jieyu Zhao},
+      year={2025},
+      eprint={2503.23361},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.23361}, 
+}
 ```
 
 ### Github
