@@ -18,6 +18,7 @@ def ans_extractor(ans: str):
     
 def judge_ans(ans, gt):
     gt = gt.lower()
+    ans = ans.lower()
     if ans == "":
         return False
     
